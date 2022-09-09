@@ -29,21 +29,41 @@ DropCaps means that the first letter of the starting word of the paragraph shoul
 
 But for a change, let"s do that for each and every word of the given String. Your task is to capitalize every word that has length greater than 2, leaving smaller words as they are.
 
-\*should work also on Leading and Trailing Spaces and caps.
+_\*should work also on Leading and Trailing Spaces and caps._
 
 ```
-"apple" => "Apple" \
-"apple of banana" => "Apple of Banana" \
-"one space" => "One Space \
+"apple" => "Apple"
+"apple of banana" => "Apple of Banana"
+"one space" => "One Space
 " space WALK " => " Space Walk "
 ```
 
 **Note:** you will be provided atleast one word and should take string as input and return string as output.
 
-**My solution**
+**My solution:**
 
 ```
-function dropCap(n) { \
-return n.replace(/\b\w{3,}\b/g, (match) => match.charAt(0).toUpperCase() + match.slice(1).toLowerCase()) \
+function dropCap(n) {
+return n.replace(/\b\w{3,}\b/g, (match) => match.charAt(0).toUpperCase() + match.slice(1).toLowerCase())
 }
 ```
+
+## Pet Projects
+
+1. ### [Covid Statistics Telegram bot](https://github.com/naberdyev/covid19stats_bot)
+   Small telegram bot whitch shows you current statistics on the spread of COVID-19 by country. \
+   **Used skills:**
+   - JS
+   - Node JS
+   - Telegram API
+2. ### [Portfolio Site](https://github.com/naberdyev/portfolio-site)
+   Simple portfolio site. \
+    **Used skills:**
+   - HTML
+   - BEM
+   - CSS
+   - SCSS
+   - JS
+   - JQuery
+
+Check it out: [click](https://denisnovikov.netlify.app)
