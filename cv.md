@@ -1,5 +1,7 @@
 # Nikita Berdyev
 
+![photo of me](https://i.imgur.com/UcvRD8Y.jpg)
+
 ## Contacts
 
 - **Location:** Samara, Russia
@@ -24,6 +26,8 @@ In my previous job I have developed good communication skills. It was easy for m
 - Git, GitHub (Basics)
 
 ## Code Example
+
+### **Kata form [CodeWars](https://www.codewars.com/kata/559e5b717dd758a3eb00005a):**
 
 DropCaps means that the first letter of the starting word of the paragraph should be in caps and the remaining lowercase, just like you see in the newspaper.
 
