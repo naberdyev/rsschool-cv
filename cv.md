@@ -57,8 +57,10 @@ return n.replace(/\b\w{3,}\b/g, (match) => match.charAt(0).toUpperCase() + match
    - Node JS
    - Telegram API
 2. ### [Portfolio Site](https://github.com/naberdyev/portfolio-site)
+
    Simple portfolio site. \
     **Used skills:**
+
    - HTML
    - BEM
    - CSS
@@ -66,4 +68,15 @@ return n.replace(/\b\w{3,}\b/g, (match) => match.charAt(0).toUpperCase() + match
    - JS
    - JQuery
 
-Check it out: [click](https://denisnovikov.netlify.app)
+   Check it out: [click](https://denisnovikov.netlify.app)
+
+## Cources
+
+- JavaScript Manual on [learn.javascript](https://learn.javascript.ru/) (in progress)
+- Legacy Responsive Web Design on [freecodecamp](https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5) (in progress)
+- Version Control with Git on [EPAM's LEARN](https://learn.epam.com/detailsPage?id=601f195a-d408-4439-a16d-0630ed2a412e&referredBy=1045061)
+
+## English
+
+- Advanced (according to the online test at [EFSET](www.efset.org))\
+  ![proficient english level, 87%](https://i.imgur.com/qCuiWCb.jpg)
