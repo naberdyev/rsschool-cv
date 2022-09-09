@@ -31,15 +31,19 @@ But for a change, let"s do that for each and every word of the given String. You
 
 \*should work also on Leading and Trailing Spaces and caps.
 
-    > "apple" => "Apple" \
-    > "apple of banana" => "Apple of Banana" \
-    > "one space" => "One Space \
-    > " space WALK " => " Space Walk "
+```
+"apple" => "Apple" \
+"apple of banana" => "Apple of Banana" \
+"one space" => "One Space \
+" space WALK " => " Space Walk "
+```
 
 **Note:** you will be provided atleast one word and should take string as input and return string as output.
 
 **My solution**
 
-    > function dropCap(n) { \
-    > return n.replace(/\b\w{3,}\b/g, (match) => match.charAt(0).toUpperCase() + match.slice(1).toLowerCase()) \
-    > }
+```
+function dropCap(n) { \
+return n.replace(/\b\w{3,}\b/g, (match) => match.charAt(0).toUpperCase() + match.slice(1).toLowerCase()) \
+}
+```
